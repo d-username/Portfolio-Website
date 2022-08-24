@@ -47,7 +47,7 @@ export function Navbar() {
             </a>
           </li>
         </ul>
-        <button>
+        <button id="button-resume">
           <NavLink to='/resume'>Resume</NavLink>
         </button>
       </nav>
