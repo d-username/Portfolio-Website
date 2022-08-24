@@ -9,6 +9,16 @@
 font-family: 'Righteous', cursive;
 font-family: 'Montserrat', sans-serif; */
 
+input {
+  outline: none;
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -71,4 +81,68 @@ p {
   width: 500px;
   height: 550px;
   object-fit: cover;
+}
+
+.contact-icon {
+  width: 50px;
+  margin: 5px;
+}
+
+#contact-follow {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+#contact-follow * {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.colour-github{
+  color: #000000
+}
+
+.colour-linkedin {
+  color: #0071AE
+}
+
+.colour-instagram {
+  color: #A02AA6
+}
+
+#button-email-send{
+  color: #FFFFFF;
+  background-color: #000000;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 10px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+#contact-email {
+  border: 1px violet solid
+}
+
+#contact-email textarea,
+#contact-email input {
+  width: -webkit-fill-available;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#contact-email textarea::placeholder,
+#contact-email input::placeholder {
+  font-family: 'Montserrat', sans-serif;
 }

@@ -5,32 +5,63 @@ return (
       <div className='grid-col-two'>
         <div className='text-div'>
           <h1>contact.</h1>
-          <h2>some text may come here</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque
-            aperiam, minima nobis nam sed ab distinctio blanditi
-          </p>
-          <ul>
-            <li>github icon</li>
-            <li>linkedin icon</li>
-            <li>instagram icon</li>
+          <h2>Find me on these online spaces, or drop me and email.</h2>
+
+          <ul id='contact-follow'>
+            <li>
+              <a
+                href='https://github.com/d-username'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/icons/github-black.png'
+                  alt='GitHub icon'
+                  className='contact-icon'
+                />
+                <p className='colour-github'>GitHub</p>
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.linkedin.com/in/david-czuczor-06748423b/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/icons/linkedin-colour.png'
+                  alt='LinkedIn icon'
+                  className='contact-icon'
+                />
+                <p className='colour-linkedin'>LinkedIn</p>
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.instagram.com/czdavid93/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/icons/instagram-colour.png'
+                  alt='Instagram icon'
+                  className='contact-icon'
+                />
+                <p className='colour-instagram'>Instagram</p>
+              </a>
+            </li>
           </ul>
         </div>
         <div id='contact-email'>
           <form action='https://formspree.io/f/{form_id}' method='post'>
-
             <div className='email-field'>
               <input
                 type='text'
                 name='name'
                 id='name'
                 required
-                placeholder='nice to meet you...'
+                placeholder='name.'
               />
-              <label htmlFor='name'>
-                Name
-                <span className='required-asterisk'>*</span>
-              </label>
             </div>
 
             <div className='email-field'>
@@ -39,28 +70,14 @@ return (
                 name='email'
                 id='email'
                 required
-                placeholder='i am looking forward to chat to you..'
+                placeholder='your email address.'
               />
-              <label htmlFor='email'>
-                Email
-                <span className='required-asterisk'>*</span>
-              </label>
             </div>
 
             <div className='email-field'>
-              <input
-                type='text'
-                name='message'
-                id='message'
-                required
-                placeholder='hmm...i like reading emails...'
-              />
-              <label htmlFor='message'>
-                Message
-                <span className='required-asterisk'>*</span>
-              </label>
+              <textarea id='message' name='message' rows='10' cols='40' placeholder="message." required></textarea>
             </div>
-            <button className='button-email-send' type='submit'>
+            <button id='button-email-send' type='submit'>
               <span>Send email</span>
             </button>
           </form>
