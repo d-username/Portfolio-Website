@@ -1,0 +1,17 @@
+#navbar {
+    border: 1px solid blue;
+    display: flex;
+    place-content: space-around;
+}
+
+#navbar * {
+    margin: 10px;
+}
+
+#navbar-pages {
+    display: flex
+}
+
+#navbar-follow {
+    display: flex
+}
