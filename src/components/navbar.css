@@ -1,5 +1,7 @@
 #navbar {
     border: 1px solid blue;
+    background-color: orange;
+
     display: flex;
     place-content: space-around;
 }
@@ -14,4 +16,8 @@
 
 #navbar-follow {
     display: flex
+}
+
+.navbar-icon{
+    width: 30px;
 }
