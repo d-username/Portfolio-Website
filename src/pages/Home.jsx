@@ -1,7 +1,9 @@
 export function Home() {
     return (
-      <div>
-        <h1>home.</h1>
-      </div>
+      <section id='home'>
+        <div className="wrapper">
+          <h1>home.</h1>
+        </div>
+      </section>
     );
 }

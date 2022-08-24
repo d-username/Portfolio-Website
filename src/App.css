@@ -33,23 +33,26 @@ p {
   line-height: 30px;
 }
 
-#about {
-  border: 1px solid blue;
-}
-
 .wrapper {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
   padding: 0 8%;
   border: 1px solid red;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
   padding-top: 50px
 }
 
-#about-text-div {
+#about {
+  border: 1px solid blue;
+}
+
+.grid-col-two{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.text-div {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -58,7 +61,7 @@ p {
   border: 1px solid greenyellow
 }
 
-#about-img-div {
+.img-div {
   border: 1px solid purple;
 
 }
