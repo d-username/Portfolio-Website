@@ -5,6 +5,10 @@
   --greyWhite: #F5F5F5;
 } */
 
+/* fonts:
+font-family: 'Righteous', cursive;
+font-family: 'Montserrat', sans-serif; */
+
 * {
   padding: 0;
   margin: 0;
@@ -15,3 +19,53 @@ ul {
   list-style: none;
 }
 
+h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 66px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 30px;
+}
+
+#about {
+  border: 1px solid blue;
+}
+
+.wrapper {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 8%;
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  padding-top: 50px
+}
+
+#about-text-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+
+  border: 1px solid greenyellow
+}
+
+#about-img-div {
+  border: 1px solid purple;
+
+}
+
+#about-image {
+  border: 1px dashed orange;
+  width: 500px;
+  height: 550px;
+  object-fit: cover;
+}

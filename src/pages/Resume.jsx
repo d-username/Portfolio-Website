@@ -1,3 +1,7 @@
 export function Resume() {
-    return <h1>Resume</h1>
+    return (
+      <div>
+        <h1>resume.</h1>
+      </div>
+    );
 }
