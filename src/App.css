@@ -34,6 +34,11 @@ a {
   color: inherit;
 }
 
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+
 ul {
   list-style: none;
 }
@@ -72,7 +77,8 @@ p {
   margin: 0 auto;
   padding: 0 8%;
   border: 1px solid red;
-  padding-top: 50px
+  padding-top: 50px;
+  padding-bottom: 50px
 }
 
 #about {
@@ -180,8 +186,7 @@ form input::placeholder {
   grid-template-columns: repeat(3, minmax(200px, 350px));
   justify-content: center;
   gap: 15px;
-  padding-top: 40px;
-
+  padding: 40px 0px;
 }
 
 .project-card {
