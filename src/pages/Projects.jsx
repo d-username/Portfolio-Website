@@ -6,7 +6,6 @@ export function Projects() {
             <div className='text-div'>
               <h1>projects.</h1>
               <h2>A selection of stuff I have built.</h2>
-              <p>Check out these projects I have worked on.</p>
             </div>
             <div className='img-div'></div>
           </div>
@@ -16,7 +15,7 @@ export function Projects() {
               <li className='project-card'>
                 <div>
                   <img
-                    src='/images/quiz_app_main_demo.gif'
+                    src='/images/quiz_app_main.png'
                     alt='quiz app demo'
                     className='project-card-image'
                   />
@@ -43,7 +42,7 @@ export function Projects() {
               <li className='project-card'>
                 <div>
                   <img
-                    src='/images/cocktail_app_demo.gif'
+                    src='/images/cocktail_app.png'
                     alt='coctail app demo'
                     className='project-card-image'
                   />
@@ -70,7 +69,7 @@ export function Projects() {
               <li className='project-card'>
                 <div>
                   <img
-                    src='/images/weather_app_demo.gif'
+                    src='/images/weather_app.png'
                     alt='weather app demo'
                     className='project-card-image'
                   />
@@ -97,7 +96,7 @@ export function Projects() {
               <li className='project-card'>
                 <div>
                   <img
-                    src='/images/spotify_clone_demo.gif'
+                    src='/images/spotify_clone.png'
                     alt='spotify clone demo'
                     className='project-card-image'
                   />
@@ -124,7 +123,7 @@ export function Projects() {
               <li className='project-card'>
                 <div>
                   <img
-                    src='/images/snake_game_demo.gif'
+                    src='/images/snake_game.png'
                     alt='snake game demo'
                     className='project-card-image'
                   />
@@ -151,7 +150,7 @@ export function Projects() {
               <li className='project-card'>
                 <div>
                   <img
-                    src='/images/tic_tac_toe_demo.gif'
+                    src='/images/tic_tac_toe.png'
                     alt='tic tac toe demo'
                     className='project-card-image'
                   />
