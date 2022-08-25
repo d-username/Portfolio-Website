@@ -25,6 +25,10 @@ input {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 ul {
   list-style: none;
 }
@@ -36,10 +40,24 @@ h1 {
 
 h2 {
   font-family: 'Montserrat', sans-serif;
+  color: #666666;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #666666;
 }
 
 p {
   font-family: 'Montserrat', sans-serif;
+}
+
+.text-div p {
   line-height: 30px;
 }
 
@@ -134,7 +152,7 @@ p {
 
 form textarea,
 form input {
-  width: -webkit-fill-available;
+  width: 100%;
   border: 1px solid black;
   margin: 5px;
   padding: 15px;
@@ -145,4 +163,35 @@ form input {
 form textarea::placeholder,
 form input::placeholder {
   font-family: 'Montserrat', sans-serif;
+}
+
+#projects {
+  background-color: #FAFAFA;
+}
+
+#projects-grid {
+  border: 1px solid purple;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 350px));
+  justify-content: center;
+  gap: 15px;
+  padding-top: 15px;
+
+}
+
+.project-card {
+  margin: 10px;
+  padding: 15px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  justify-content: center;
+  border-radius: 7px;
+  gap: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.project-card-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
 }
