@@ -25,7 +25,11 @@ export function Navbar() {
               target='_blank'
               rel='noreferrer'
             >
-              <img src='/icons/github.png' alt='GitHub icon' className="navbar-icon"/>
+              <img
+                src='/icons/github.png'
+                alt='GitHub icon'
+                className='navbar-icon'
+              />
             </a>
           </li>
           <li>
@@ -34,7 +38,11 @@ export function Navbar() {
               target='_blank'
               rel='noreferrer'
             >
-              <img src='/icons/linkedin.png' alt='LinkedIn icon' className="navbar-icon"/>
+              <img
+                src='/icons/linkedin.png'
+                alt='LinkedIn icon'
+                className='navbar-icon'
+              />
             </a>
           </li>
           <li>
@@ -43,11 +51,15 @@ export function Navbar() {
               target='_blank'
               rel='noreferrer'
             >
-              <img src='/icons/instagram.png' alt='Instagram icon' className="navbar-icon"/>
+              <img
+                src='/icons/instagram.png'
+                alt='Instagram icon'
+                className='navbar-icon'
+              />
             </a>
           </li>
         </ul>
-        <button id="button-resume">
+        <button id='button-resume'>
           <NavLink to='/resume'>Resume</NavLink>
         </button>
       </nav>

@@ -1,12 +1,6 @@
-import { useForm, ValidationError } from '@formspree/react';
+import { EmailForm } from "../components/EmailForm";
 
 export function Contact() {
-   const [state, handleSubmit] = useForm('xeqdokqg');
-
-    if (state.succeeded) {
-      return <p>Thanks for your email!</p>;
-    }
-
   return (
     <section id='contact'>
       <div className='wrapper'>
@@ -61,62 +55,7 @@ export function Contact() {
             </ul>
           </div>
 
-          <form
-            onSubmit={handleSubmit}
-          >
-            <div className='email-field'>
-              <input
-                type='text'
-                name='name'
-                id='name'
-                required
-                placeholder='name.'
-              />
-              <ValidationError
-                prefix='Name'
-                field='name'
-                errors={state.errors}
-              />
-            </div>
-
-            <div className='email-field'>
-              <input
-                type='email'
-                name='email'
-                id='email'
-                required
-                placeholder='your email address.'
-              />
-              <ValidationError
-                prefix='Email'
-                field='email'
-                errors={state.errors}
-              />
-            </div>
-
-            <div className='email-field'>
-              <textarea
-                id='message'
-                name='message'
-                rows='10'
-                cols='40'
-                placeholder='message.'
-                required
-              ></textarea>
-              <ValidationError
-                prefix='Message'
-                field='message'
-                errors={state.errors}
-              />
-            </div>
-            <button
-              id='button-email-send'
-              type='submit'
-              disabled={state.submitting}
-            >
-              <span>Send email</span>
-            </button>
-          </form>
+          <EmailForm />
         </div>
       </div>
     </section>
