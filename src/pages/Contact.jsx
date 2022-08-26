@@ -1,11 +1,12 @@
 import { EmailForm } from "../components/EmailForm";
+import { Map } from "../components/Map";
 
 export function Contact() {
   return (
     <section id='contact'>
       <div className='wrapper'>
         <div className='grid-col-two'>
-          <div className='text-div'>
+          {/* <div className='text-div'>
             <h1>contact.</h1>
             <h2>Find me on these online spaces, or drop me and email.</h2>
 
@@ -53,7 +54,8 @@ export function Contact() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
+          <Map />
 
           <EmailForm />
         </div>
