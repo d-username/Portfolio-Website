@@ -36,6 +36,11 @@ font-family: 'Montserrat', sans-serif; */
     display: flex
 }
 
+#navbar-contacts {
+    display: flex;
+    align-items: center;
+}
+
 .navbar-icon{
     width: 30px;
 }
