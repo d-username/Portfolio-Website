@@ -60,6 +60,12 @@ form input:focus {
     grid-area: button;
     width: fit-content;
     height: fit-content;
+    transition: 0.5s;
 }
 
-
+#button-email-send:hover {
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    background-color: #888888;
+    border: 2px solid #888888;
+    color: #000000;
+}

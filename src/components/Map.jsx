@@ -1,4 +1,4 @@
-import { GoogleMap, Marker, useLoadScript } from "@react-google-maps/api";
+import { GoogleMap, MarkerF, useLoadScript } from '@react-google-maps/api';
 import './map.css';
 import {useMemo} from "react"
 
@@ -35,9 +35,7 @@ function TheMap() {
       id='map'
       options={options}
     >
-      <Marker
-        position={{ lat: 51.509865, lng: -0.118092 }}
-      />
+      <MarkerF position={{ lat: 51.509865, lng: -0.118092 }} />
     </GoogleMap>
   );
 }

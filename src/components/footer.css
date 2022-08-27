@@ -17,3 +17,11 @@ footer {
     display: flex;
     gap: 45px;
 }
+
+#footer-ul li {
+    transition: 0.3s;
+}
+
+#footer-ul li:hover {
+    color: #888888;
+}

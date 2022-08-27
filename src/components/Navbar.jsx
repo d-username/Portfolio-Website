@@ -1,25 +1,42 @@
 import { NavLink } from "react-router-dom";
 import './navbar.css';
+// import { useState } from 'react';
 
 export function Navbar() {
+  // const [textcolor, setTextcolor] = useState('white');
+
+  // function handleHighlightTab() {
+  //   setTextcolor('black');
+  // } 
+
+
     return (
       <nav id='navbar'>
         <ul id='navbar-pages'>
           <li>
-            <NavLink to='/'>Home</NavLink>
+            <NavLink
+              to='/' className={'nav-link'}>
+              Home
+            </NavLink>
           </li>
           <li>
-            <NavLink to='/about'>About</NavLink>
+            <NavLink to='/about' className={'nav-link'}>
+              About
+            </NavLink>
           </li>
           <li>
-            <NavLink to='/projects'>Projects</NavLink>
+            <NavLink to='/projects' className={'nav-link'}>
+              Projects
+            </NavLink>
           </li>
           <li>
-            <NavLink to='/contact'>Contact</NavLink>
+            <NavLink to='/contact' className={'nav-link'}>
+              Contact
+            </NavLink>
           </li>
         </ul>
 
-        <div id="navbar-contacts">
+        <div id='navbar-contacts'>
           <ul id='navbar-follow'>
             <li>
               <a

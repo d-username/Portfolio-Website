@@ -7,7 +7,9 @@ export function Footer() {
       © 2022 | David Czuczor
       <ul id='footer-ul'>
         <li>
-          <NavLink to='/'>Home</NavLink>
+          <NavLink to='/'>
+            Home
+          </NavLink>
         </li>
         <li>
           <NavLink to='/about'>About</NavLink>

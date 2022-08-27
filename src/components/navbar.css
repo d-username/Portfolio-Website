@@ -74,3 +74,6 @@ font-family: 'Montserrat', sans-serif; */
     color: #000000;
 }
 
+.nav-link.active {
+    color: #888888 !important;
+}
