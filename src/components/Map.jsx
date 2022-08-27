@@ -10,9 +10,13 @@ export function Map() {
 
   if (!isLoaded) return <div>Loading...</div>
 
-  return <TheMap />;
-}
+  return (
+    <div id="map-container" >
+      <TheMap />
+    </div>
+  );
 
+}
 
 function TheMap() {
     const options = useMemo(
@@ -28,7 +32,7 @@ function TheMap() {
     <GoogleMap
       zoom={6}
       center={{ lat: 51.507226, lng: -0.127579 }}
-      mapContainerClassName='map-container'
+      id="map"
       options={options}
     >
     </GoogleMap>
