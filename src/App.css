@@ -38,6 +38,7 @@ h1 {
 h2 {
   font-family: 'Montserrat', sans-serif;
   color: #666666;
+  font-weight: lighter;
 }
 
 h3 {
@@ -47,7 +48,8 @@ h3 {
 
 h4 {
   font-family: 'Montserrat', sans-serif;
-  color: #666666;
+  color: #000000;
+  font-size: 30px;
 }
 
 p {

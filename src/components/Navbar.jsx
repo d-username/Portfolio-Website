@@ -1,15 +1,7 @@
 import { NavLink } from "react-router-dom";
 import './navbar.css';
-// import { useState } from 'react';
 
 export function Navbar() {
-  // const [textcolor, setTextcolor] = useState('white');
-
-  // function handleHighlightTab() {
-  //   setTextcolor('black');
-  // } 
-
-
     return (
       <nav id='navbar'>
         <ul id='navbar-pages'>
