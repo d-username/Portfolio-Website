@@ -31,10 +31,9 @@ function TheMap() {
   return (
     <GoogleMap
       zoom={6}
-      center={{ lat: 51.507226, lng: -0.127579 }}
-      id="map"
+      center={{ lat: 52.240479, lng: -0.902656 }}
+      id='map'
       options={options}
-    >
-    </GoogleMap>
+    ></GoogleMap>
   );
 }
