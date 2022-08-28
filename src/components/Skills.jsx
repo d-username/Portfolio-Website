@@ -1,4 +1,5 @@
 import './skills.css';
+import { SiPrisma } from 'react-icons/si';
 
 export function Skills() {
   return (
@@ -81,10 +82,15 @@ export function Skills() {
             <span>vsc</span>
           </div>
         </li>
+
+        <li>
+          <div>
+            <SiPrisma class='skills-icon'/>
+            <span>prisma orm</span>
+          </div>
+        </li>
       </ul>
     </section>
   );
-  
 
 }
-
