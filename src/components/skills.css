@@ -1,9 +1,52 @@
-#skills {
-    border: 1px solid red;
+.skills-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
 }
 
 .skills-icon,
 #skills img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    margin:  5px;
+}
+
+#skills span {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.slider:before,
+.slider:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    top: 0;
+    height: 100%;
+    pointer-events: none;
+}
+
+.slider:before {
+    left: 0;
+    background: linear-gradient(270deg,
+        rgba(0, 0, 0, 0) 12%,
+        rgba(255, 255, 255, 1) 75%);
+}
+
+.slider:after {
+    right: 0;
+    background: linear-gradient(90deg,
+        rgba(0, 0, 0, 0) 12%,
+        rgba(255, 255, 255, 1) 75%);
+}
+
+#skills {
+    border: 1px dashed blue;
+    margin: 50px 0px;
+}
+
+.slider {
+    border: 1px dashed red
 }
