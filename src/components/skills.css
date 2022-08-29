@@ -4,6 +4,7 @@
     align-items: center;
     padding: 10px;
     gap: 10px;
+    text-align: center;
 }
 
 .skills-icon,
@@ -43,10 +44,9 @@
 }
 
 #skills {
-    border: 1px dashed blue;
     margin: 50px 0px;
 }
 
-.slider {
-    border: 1px dashed red
+#skills h2 {
+    margin: 20px 0px 30px 0px;
 }

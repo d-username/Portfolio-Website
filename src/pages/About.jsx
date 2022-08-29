@@ -3,7 +3,7 @@ import { Skills } from '../components/Skills';
 export function About() {
   return (
     <section id='about'>
-      <div className='wrapper'>
+      <div className='wrapper about-top'>
         <div className='grid-col-two'>
           <div className='text-div'>
             <h1>about.</h1>
@@ -18,8 +18,15 @@ export function About() {
               veniam quod.
             </p>
           </div>
-          <div className='img-div'>image</div>
+          <div className='img-div'>
+            <img
+              src='https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+              alt='skills'
+            />
+          </div>
         </div>
+      </div>
+      <div className='wrapper about-skills'>
         <Skills />
       </div>
     </section>

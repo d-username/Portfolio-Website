@@ -66,7 +66,7 @@ p {
   margin: 0 auto;
   padding: 0 8%;
   padding-top: 50px;
-  padding-bottom: 120px;
+  padding-bottom: 50px;
 }
 
 .grid-col-two{
@@ -79,12 +79,6 @@ p {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-#about-image {
-  width: 500px;
-  height: 550px;
-  object-fit: cover;
 }
 
 .contact-icon {
@@ -125,10 +119,6 @@ p {
 
 .colour-instagram {
   color: #A02AA6
-}
-
-#projects {
-  background-color: #FAFAFA;
 }
 
 #projects-grid {
@@ -176,4 +166,16 @@ p {
 
 #home-canvas {
   background-color: lightgreen;
+}
+
+.img-div img {
+  width: 500px;
+}
+
+/* #about * {
+  border: 1px solid blue;
+} */
+
+#about {
+  padding-bottom: 70px;
 }
