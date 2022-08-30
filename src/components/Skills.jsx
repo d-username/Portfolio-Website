@@ -1,9 +1,18 @@
 import './skills.css';
-import { SiPrisma } from 'react-icons/si';
+import {
+  SiPrisma,
+  SiJsonwebtokens,
+  SiExpress,
+  SiInsomnia,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiPostgresql,
+} from 'react-icons/si';
 import { DiNpm } from 'react-icons/di';
-import { SiJsonwebtokens } from 'react-icons/si'
-import { SiExpress } from 'react-icons/si';
 import { BsFillKanbanFill } from 'react-icons/bs';
+import { FaNodeJs, FaReact } from 'react-icons/fa';
+import { ImGit } from 'react-icons/im';
 
 import React from 'react';
 import Slider from 'react-slick';
@@ -33,35 +42,35 @@ export function Skills() {
       <Slider {...settings} className='slider'>
         <div className='slider-outer-div'>
           <div className='skills-tile'>
-            <img src='/icons/html_5_black.png' alt='html 5 icon' />
+            <SiHtml5 className='skills-icon' />
             <span>HTML</span>
           </div>
         </div>
 
         <div className='slider-outer-div'>
           <div className='skills-tile'>
-            <img src='/icons/css_3_black.png' alt='css 3 icon' />
+            <SiCss3 className='skills-icon' />
             <span>CSS</span>
           </div>
         </div>
 
         <div className='slider-outer-div'>
           <div className='skills-tile'>
-            <img src='/icons/js_black.png' alt='js icon' />
+            <SiJavascript className='skills-icon' />
             <span>JavaScript</span>
           </div>
         </div>
 
         <div className='slider-outer-div'>
           <div className='skills-tile'>
-            <img src='/icons/react_black.png' alt='react icon' />
+            <FaReact className='skills-icon' />
             <span>React</span>
           </div>
         </div>
 
         <div className='slider-outer-div'>
           <div className='skills-tile'>
-            <img src='/icons/postgreSQL_black.png' alt='postgreSQL icon' />
+            <SiPostgresql className='skills-icon' />
             <span>PostgreSQL</span>
           </div>
         </div>
@@ -75,28 +84,28 @@ export function Skills() {
 
         <div className='slider-outer-div'>
           <div className='skills-tile'>
-            <img src='/icons/command_line_black.png' alt='command line icon' />
+            <img src='/icons/command_line_black.png' alt='visual studio code icon' />
             <span>Command line</span>
           </div>
         </div>
 
         <div className='slider-outer-div'>
           <div className='skills-tile'>
-            <img src='/icons/git_black.png' alt='git icon' />
+            <ImGit className='skills-icon' />
             <span>Git</span>
           </div>
         </div>
 
         <div className='slider-outer-div'>
           <div className='skills-tile'>
-            <img src='/icons/node_js_black.png' alt='node icon' />
+            <FaNodeJs className='skills-icon' />
             <span>Node.js</span>
           </div>
         </div>
 
         <div className='slider-outer-div'>
           <div className='skills-tile'>
-            <img src='/icons/insomnia_black.png' alt='insomnia icon' />
+            <SiInsomnia className='skills-icon' />
             <span>Insomnia</span>
           </div>
         </div>
