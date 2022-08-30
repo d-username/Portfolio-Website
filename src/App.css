@@ -98,7 +98,6 @@ p {
 
 #contact-follow {
   display: flex;
-  gap: 20px;
   padding: 20px;
 }
 
@@ -165,6 +164,7 @@ p {
 
 #home {
   align-self: center;
+  padding-bottom: 80px;
 }
 
 .img-div{
@@ -173,12 +173,19 @@ p {
 }
 
 .img-div img {
-  width: 500px;
+  width: -webkit-fill-available;
   margin: 10px;
   padding: 15px;
   border-radius: 7px;
   box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
   min-width: 400px;
+}
+
+#home,
+#about,
+#projects,
+#contact {
+  padding-bottom: 80px;
 }
 
 #about-top {
@@ -205,14 +212,82 @@ p {
   background-color: #666666;
 }
 
-#home h2 {
-  font-size: 40px;
+/* RESPONSOVENESS: */
+@media (min-width: 1201px) {
+  #home,
+  #about,
+  #projects,
+  #contact {
+    align-self: center;
+  }
+  #home h2 {
+    font-size: 50px;
+  }
+  
+  #home h1 {
+    font-size: 85px;
+  }
+  
+  #home p {
+    font-size: 30px;
+  }
 }
 
-#home h1 {
-  font-size: 75px;
+@media (max-width: 1200px) {
+  .wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #home h2 {
+    font-size: 40px;
+  }
+    
+  #home h1 {
+    font-size: 75px;
+  }
+    
+  #home p {
+    font-size: 20px;
+  }
 }
 
-#home p {
-  font-size: 20px;
+@media (max-width: 1024px) {
+  #navbar {
+    height: 70px;
+  }
+  footer {
+    height: 60px;
+  }
+  #home h2 {
+    font-size: 30px;
+  }
+  #home h1 {
+    font-size: 65px;
+  }
+  #home p {
+    font-size: 20px;
+  }
 }
+
+@media (max-width: 768px) {
+  #navbar {
+    height: 70px;
+  }
+  
+  footer {
+    height: 60px;
+  }
+  #map-container{
+    min-width: 270px;
+  }
+  #home h2 {
+    font-size: 20px;
+  }
+  #home h1 {
+    font-size: 55px;
+  }
+  #home p {
+    font-size: 20px;
+  }
+}
+
