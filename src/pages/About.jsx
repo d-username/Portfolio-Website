@@ -19,8 +19,12 @@ export function About() {
                 opportunity to grow as a developer and as a person.
               </p>
               <p>
-                My tech skills include HTML, CSS, JavaScript, React, Node.js,
-                Express, Prisma ORM and PostgreSQL.
+                My tech skills include{' '}
+                <b>
+                  HTML, CSS, JavaScript, React, Node.js, Express, Prisma ORM and
+                  PostgreSQL
+                </b>{' '}
+                .
               </p>
             </div>
             <div className='img-div'>

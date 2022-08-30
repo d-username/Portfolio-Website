@@ -13,7 +13,7 @@ export function Home() {
           </div>
           <div className='img-div'>
             <img
-              src='https://images.pexels.com/photos/2882558/pexels-photo-2882558.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+              src='https://images.pexels.com/photos/6168064/pexels-photo-6168064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
               alt='hello'
             />
           </div>
