@@ -67,6 +67,7 @@ p {
   padding: 0 8%;
   padding-top: 70px;
   padding-bottom: 70px;
+  border: 1px solid blue
 }
 
 .grid-col-two{
@@ -180,4 +181,23 @@ p {
 #about-top {
   box-shadow: 0px 3px 20px -7px rgba(0, 0, 0, 0.5);
   background-color: #FAFAFA;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666666;
 }
