@@ -9,6 +9,7 @@ export function Home() {
             <h2>Hi, my name is</h2>
             <h1>David Czuczor.</h1>
             <p>I am a Full Stack Web Developer Graduate.</p>
+            <h3>...feel free to look around.</h3>
           </div>
           <div className='img-div'>
             <img
