@@ -20,10 +20,10 @@ a {
 }
 
 .App {
-  position: relative;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+
+  display: grid;
+  grid-auto-rows: auto 1fr auto;
 }
 
 ul {
@@ -126,8 +126,7 @@ p {
   grid-template-columns: repeat(3, minmax(200px, 350px));
   justify-content: center;
   gap: 15px;
-  padding: 70px 0px;
-
+  padding-top: 70px;
 }
 
 .project-card {
@@ -164,8 +163,8 @@ p {
   width: 30px;
 }
 
-#home-canvas {
-  background-color: lightgreen;
+#home {
+  align-self: center;
 }
 
 .img-div{
@@ -180,11 +179,6 @@ p {
   border-radius: 7px;
   box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
   min-width: 400px;
-}
-
-#contact,
-#about {
-  padding-bottom: 70px;
 }
 
 #about-top {
