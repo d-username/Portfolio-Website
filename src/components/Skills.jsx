@@ -23,8 +23,6 @@ export function Skills() {
     cssEase: 'linear',
     pauseOnFocus: false,
     pauseOnHover: false,
-    accessibility: false,
-    draggable: true
     // responsive: [
     //   {
     //     breakpoint: 1024,

@@ -10,7 +10,11 @@ export function Home() {
             <h1>David Czuczor.</h1>
             <p>I am a Full Stack Web Developer Graduate.</p>
           </div>
-          <div id='home-canvas'>
+          <div className='img-div'>
+            <img
+              src='https://images.pexels.com/photos/2882558/pexels-photo-2882558.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+              alt='hello'
+            />
           </div>
         </div>
       </div>

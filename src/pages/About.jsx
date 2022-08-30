@@ -13,15 +13,19 @@ export function About() {
                 retail.
               </h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-                possimus quae optio inventore debitis? Sequi quidem id aut
-                doloribus omnis earum voluptates voluptate esse, vero velit. Id
-                ea veniam quod.
+                After I graduated from an intensive 6-months long academy
+                focusing on Full-Stack Software Development, I am excited to
+                start my career in tech at a company where I would have the
+                opportunity to grow as a developer and as a person.
+              </p>
+              <p>
+                My tech skills include HTML, CSS, JavaScript, React, Node.js,
+                Express, Prisma ORM and PostgreSQL.
               </p>
             </div>
             <div className='img-div'>
               <img
-                src='https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+                src='https://images.pexels.com/photos/5554751/pexels-photo-5554751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
                 alt='skills'
               />
             </div>

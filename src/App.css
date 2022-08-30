@@ -65,9 +65,8 @@ p {
   width: 100%;
   margin: 0 auto;
   padding: 0 8%;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  border: 1px solid blue
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .grid-col-two{
@@ -169,8 +168,18 @@ p {
   background-color: lightgreen;
 }
 
+.img-div{
+  display: grid;
+  align-content: center;
+}
+
 .img-div img {
   width: 500px;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  min-width: 400px;
 }
 
 #contact,
@@ -200,4 +209,16 @@ p {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #666666;
+}
+
+#home h2 {
+  font-size: 40px;
+}
+
+#home h1 {
+  font-size: 75px;
+}
+
+#home p {
+  font-size: 20px;
 }
