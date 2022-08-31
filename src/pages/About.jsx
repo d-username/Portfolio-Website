@@ -2,7 +2,7 @@ import { Skills } from '../components/Skills';
 
 export function About() {
   return (
-    <div id='about'>
+    <section id='about'>
       <section id='about-top'>
         <div className='wrapper'>
           <div className='grid-col-two'>
@@ -41,6 +41,6 @@ export function About() {
           <Skills />
         </div>
       </section>
-    </div>
+    </section>
   );
 }
