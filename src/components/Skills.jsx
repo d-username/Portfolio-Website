@@ -8,6 +8,7 @@ import {
   SiCss3,
   SiJavascript,
   SiPostgresql,
+  SiNetlify,
 } from 'react-icons/si';
 import { DiNpm } from 'react-icons/di';
 import { BsFillKanbanFill } from 'react-icons/bs';
@@ -84,7 +85,10 @@ export function Skills() {
 
         <div className='slider-outer-div'>
           <div className='skills-tile'>
-            <img src='/icons/command_line_black.png' alt='visual studio code icon' />
+            <img
+              src='/icons/command_line_black.png'
+              alt='visual studio code icon'
+            />
             <span>Command line</span>
           </div>
         </div>
@@ -149,6 +153,13 @@ export function Skills() {
           <div className='skills-tile'>
             <BsFillKanbanFill className='skills-icon' />
             <span>Kanban board</span>
+          </div>
+        </div>
+
+        <div className='slider-outer-div'>
+          <div className='skills-tile'>
+            <SiNetlify className='skills-icon' />
+            <span>Netlify</span>
           </div>
         </div>
       </Slider>
