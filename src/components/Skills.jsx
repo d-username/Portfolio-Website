@@ -9,11 +9,14 @@ import {
   SiJavascript,
   SiPostgresql,
   SiNetlify,
+  SiVisualstudiocode,
 } from 'react-icons/si';
-import { DiNpm } from 'react-icons/di';
+import { DiNpm, DiTerminal } from 'react-icons/di';
 import { BsFillKanbanFill } from 'react-icons/bs';
 import { FaNodeJs, FaReact } from 'react-icons/fa';
 import { ImGit } from 'react-icons/im';
+import { TbApi } from 'react-icons/tb';
+import { VscJson } from 'react-icons/vsc';
 
 import React from 'react';
 import Slider from 'react-slick';
@@ -28,7 +31,8 @@ export function Skills() {
     slidesToShow: 10,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 4000,
+    // speed: 4000,
+    speed: 500,
     autoplaySpeed: 0,
     cssEase: 'linear',
     pauseOnFocus: false,
@@ -47,115 +51,102 @@ export function Skills() {
             <span>HTML</span>
           </div>
         </div>
-
         <div className='slider-outer-div'>
           <div className='skills-tile'>
             <SiCss3 className='skills-icon' />
             <span>CSS</span>
           </div>
         </div>
-
         <div className='slider-outer-div'>
           <div className='skills-tile'>
             <SiJavascript className='skills-icon' />
             <span>JavaScript</span>
           </div>
         </div>
-
         <div className='slider-outer-div'>
           <div className='skills-tile'>
             <FaReact className='skills-icon' />
             <span>React</span>
           </div>
         </div>
-
         <div className='slider-outer-div'>
           <div className='skills-tile'>
             <SiPostgresql className='skills-icon' />
             <span>PostgreSQL</span>
           </div>
         </div>
-
         <div className='slider-outer-div'>
           <div className='skills-tile'>
-            <img src='/icons/api_black.png' alt='api icon' />
+            <TbApi className='skills-icon' />
             <span>APIs</span>
           </div>
         </div>
-
         <div className='slider-outer-div'>
           <div className='skills-tile'>
-            <img
-              src='/icons/command_line_black.png'
-              alt='visual studio code icon'
-            />
+            <VscJson className='skills-icon' />
+            <span>JSON</span>
+          </div>
+        </div>
+        <div className='slider-outer-div'>
+          <div className='skills-tile'>
+            <DiTerminal className='skills-icon' />
             <span>Command line</span>
           </div>
         </div>
-
         <div className='slider-outer-div'>
           <div className='skills-tile'>
             <ImGit className='skills-icon' />
             <span>Git</span>
           </div>
         </div>
-
         <div className='slider-outer-div'>
           <div className='skills-tile'>
             <FaNodeJs className='skills-icon' />
             <span>Node.js</span>
           </div>
         </div>
-
         <div className='slider-outer-div'>
           <div className='skills-tile'>
             <SiInsomnia className='skills-icon' />
             <span>Insomnia</span>
           </div>
         </div>
-
         <div className='slider-outer-div'>
           <div className='skills-tile'>
-            <img src='/icons/vsc_black.png' alt='visual studio code icon' />
+            <SiVisualstudiocode className='skills-icon' />
             <span>VSC</span>
           </div>
         </div>
-
         <div className='slider-outer-div'>
           <div className='skills-tile'>
             <SiPrisma className='skills-icon' />
             <span>Prisma ORM</span>
           </div>
         </div>
-
         <div className='slider-outer-div'>
           <div className='skills-tile'>
             <DiNpm className='skills-icon' />
             <span>NPM</span>
           </div>
         </div>
-
         <div className='slider-outer-div'>
           <div className='skills-tile'>
             <SiJsonwebtokens className='skills-icon' />
             <span>JWT</span>
           </div>
         </div>
-
         <div className='slider-outer-div'>
           <div className='skills-tile'>
             <SiExpress className='skills-icon' />
             <span>Express.js</span>
           </div>
         </div>
-
         <div className='slider-outer-div'>
           <div className='skills-tile'>
             <BsFillKanbanFill className='skills-icon' />
             <span>Kanban board</span>
           </div>
         </div>
-
         <div className='slider-outer-div'>
           <div className='skills-tile'>
             <SiNetlify className='skills-icon' />
