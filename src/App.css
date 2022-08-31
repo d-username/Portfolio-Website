@@ -136,7 +136,7 @@ p {
   grid-template-rows: auto 1fr;
   justify-content: center;
   border-radius: 7px;
-  gap: 5px;
+  gap: 8px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -146,21 +146,22 @@ p {
   border-radius: 5px;
 }
 
-.project-card-gh {
+.project-card-view {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   gap: 10px;
-  transition: transform 0.3s
 }
-
-.project-card-gh:hover {
-  transform: scale(1.07);
-}
-
 
 .project-card-icon {
   width: 30px;
+  height: 30px;
+  transition: transform 0.3s;
+  display: block;
+}
+
+.project-card-icon:hover {
+  transform: scale(1.15);
 }
 
 #home {
