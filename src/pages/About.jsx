@@ -1,4 +1,4 @@
-import { Skills } from '../components/Skills';
+import { SkillsCarousel } from '../components/Skills';
 
 export function About() {
   return (
@@ -38,7 +38,7 @@ export function About() {
       </section>
       <section id='about-skills'>
         <div className='wrapper'>
-          <Skills />
+          <SkillsCarousel />
         </div>
       </section>
     </section>

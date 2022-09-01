@@ -12,7 +12,9 @@ import {
   SiVisualstudiocode,
 } from 'react-icons/si';
 import { DiNpm, DiTerminal } from 'react-icons/di';
-import { BsFillKanbanFill } from 'react-icons/bs';
+import {
+  BsFillKanbanFill,
+} from 'react-icons/bs';
 import { FaNodeJs, FaReact } from 'react-icons/fa';
 import { ImGit } from 'react-icons/im';
 import { TbApi } from 'react-icons/tb';
@@ -23,7 +25,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-export function Skills() {
+export function SkillsCarousel() {
   const settings = {
     arrows: true,
     dots: false,
@@ -31,9 +33,8 @@ export function Skills() {
     slidesToShow: 10,
     slidesToScroll: 1,
     autoplay: true,
-    // speed: 4000,
-    speed: 500,
     autoplaySpeed: 0,
+    speed: 4000,
     cssEase: 'linear',
     pauseOnFocus: false,
     pauseOnHover: false,
